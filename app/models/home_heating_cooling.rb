@@ -1,0 +1,2 @@
+class HomeHeatingCooling < ApplicationRecord
+end

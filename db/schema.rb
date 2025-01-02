@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_01_02_020858) do
+ActiveRecord::Schema[7.1].define(version: 2025_01_02_173309) do
   create_table "amenities", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -55,6 +55,13 @@ ActiveRecord::Schema[7.1].define(version: 2025_01_02_020858) do
   create_table "home_amenities", force: :cascade do |t|
     t.integer "home_id"
     t.integer "amenity_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "home_heating_coolings", force: :cascade do |t|
+    t.integer "home_id"
+    t.integer "heating_cooling_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
