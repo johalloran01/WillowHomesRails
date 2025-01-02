@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  address: MyText
+  property_type_id: 1
+  home_size_sq_ft: 1.5
+  description: MyText
+  asking_price: 1.5
+  listed_date: MyString
+
+two:
+  address: MyText
+  property_type_id: 1
+  home_size_sq_ft: 1.5
+  description: MyText
+  asking_price: 1.5
+  listed_date: MyString

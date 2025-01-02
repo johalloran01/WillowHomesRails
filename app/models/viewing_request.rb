@@ -1,0 +1,2 @@
+class ViewingRequest < ApplicationRecord
+end

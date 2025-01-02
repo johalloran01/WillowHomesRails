@@ -1,0 +1,2 @@
+class HomeUtility < ApplicationRecord
+end
